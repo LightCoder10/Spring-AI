@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: AILearning
+
+  autoconfigure:
+    exclude:
+      - org.springframework.ai.model.ollama.autoconfigure.OllamaChatAutoConfiguration
+
+  ai:
+    google:
+      genai:
+        api-key: AIzaSyBpkIA_mxlDEyIikuujOpwQEpgaIx5Hd5Q
+        project-id: gen-lang-client-0669769733
+        chat:
+          options:
+            model: gemini-2.5-flash
+    ollama:
+      embedding:
+        model: nomic-embed-text
