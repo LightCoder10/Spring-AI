@@ -9,11 +9,11 @@ spring:
   ai:
     google:
       genai:
-        api-key: AIzaSyBpkIA_mxlDEyIikuujOpwQEpgaIx5Hd5Q
-        project-id: gen-lang-client-0669769733
+        api-key:
+        project-id:
         chat:
           options:
-            model: gemini-2.5-flash
+            model: 
     ollama:
       embedding:
         model: nomic-embed-text
